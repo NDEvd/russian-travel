@@ -1,0 +1,30 @@
+.intro {
+  width: calc(100% - 296px);
+  text-align: left;
+  position: relative;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    width: calc(100% - 48px);
+    margin: auto;
+    padding-bottom: 88px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    width: calc(100% - 32px);
+    padding-bottom: 64px;
+    padding-top: 88px;
+  }
+}

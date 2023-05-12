@@ -1,0 +1,31 @@
+.lead__title {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc( (100vw - 320px)/(1280 - 320) * (96 - 40) + 40px);
+  line-height: calc( (100vw - 320px)/(1280 - 320) * (100 - 44) + 44px);
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lead__title {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .lead__title {
+    width: 95%;
+    margin-bottom: 16px;
+  }
+}
