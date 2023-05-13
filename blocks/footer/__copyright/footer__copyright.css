@@ -6,15 +6,10 @@
   line-height: 16px;
   color: #FFFFFF;
   margin: 0;
-  width: calc(100% - 430px);
-  text-align: end;
 }
 
 @media screen and (max-width: 748px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 14px;
-    width: 100%;
-    text-align: start;
   }
 }
